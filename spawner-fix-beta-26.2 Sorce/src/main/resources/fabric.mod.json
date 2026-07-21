@@ -1,0 +1,34 @@
+{
+	"schemaVersion": 1,
+	"id": "spawner-fix",
+	"version": "${version}",
+	"name": "Spawner Fix",
+	"description": "Configurable mob spawner player activation range and spawn radius via game rules. Supports Minecraft 26.1, 26.1.1, 26.1.2 and 26.2.",
+	"authors": [
+		"leopoldoronaldi"
+	],
+	"license": "CC BY 4.0",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"mobspawnerlogic.SpawnerFix"
+		],
+		"client": [
+			"mobspawnerlogic.client.SpawnerFixClient"
+		]
+	},
+	"mixins": [
+		"spawner-fix.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": [
+			"26.1",
+			"26.1.1",
+			"26.1.2",
+			"~26.2"
+		],
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}

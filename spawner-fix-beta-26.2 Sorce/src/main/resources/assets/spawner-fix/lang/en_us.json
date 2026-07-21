@@ -1,0 +1,10 @@
+{
+	"gamerule.minecraft.spawner_player_range": "Spawner Player Range",
+	"gamerule.minecraft.spawner_player_range.description": "Maximum distance at which players activate mob spawners. Default: 128. Allowed: 0–10000.",
+	"gamerule.minecraft.spawner_spawn_radius": "Spawner Spawn Radius",
+	"gamerule.minecraft.spawner_spawn_radius.description": "Maximum horizontal distance from a mob spawner where mobs can spawn. Default: 4. Allowed: 0–10000.",
+	"argument.spawner_player_range.too_high": "Spawner player range cannot be greater than %s (found %s)",
+	"argument.spawner_player_range.too_low": "Spawner player range cannot be less than %s (found %s)",
+	"argument.spawner_spawn_radius.too_high": "Spawner spawn radius cannot be greater than %s (found %s)",
+	"argument.spawner_spawn_radius.too_low": "Spawner spawn radius cannot be less than %s (found %s)"
+}
