@@ -3,8 +3,11 @@
 	"gamerule.minecraft.spawner_player_range.description": "Maximale Distanz, in der Spieler Monster-Spawner aktivieren. Standard: 128. Erlaubt: 0–10000.",
 	"gamerule.minecraft.spawner_spawn_radius": "Spawner-Spawnradius",
 	"gamerule.minecraft.spawner_spawn_radius.description": "Maximale horizontale Distanz um einen Monster-Spawner, in der Mobs spawnen können. Standard: 4. Erlaubt: 0–10000.",
+	"gamerule.minecraft.spawner_drop_with_silk_touch": "Spawner-Drop mit Behutsamkeit",
+	"gamerule.minecraft.spawner_drop_with_silk_touch.description": "Legt fest, ob Monster-Spawner sich selbst fallen lassen, wenn sie mit einem Werkzeug mit Behutsamkeit abgebaut werden. Standard: false.",
 	"argument.spawner_player_range.too_high": "Spawner-Spielerreichweite darf nicht größer als %s sein (gefunden: %s)",
 	"argument.spawner_player_range.too_low": "Spawner-Spielerreichweite darf nicht kleiner als %s sein (gefunden: %s)",
 	"argument.spawner_spawn_radius.too_high": "Spawner-Spawnradius darf nicht größer als %s sein (gefunden: %s)",
-	"argument.spawner_spawn_radius.too_low": "Spawner-Spawnradius darf nicht kleiner als %s sein (gefunden: %s)"
+	"argument.spawner_spawn_radius.too_low": "Spawner-Spawnradius darf nicht kleiner als %s sein (gefunden: %s)",
+	"template.spawner-fix.mob_spawner": "%s-Spawner"
 }

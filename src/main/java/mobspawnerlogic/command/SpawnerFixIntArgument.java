@@ -10,9 +10,6 @@ import com.mojang.brigadier.exceptions.Dynamic2CommandExceptionType;
 
 import net.minecraft.network.chat.Component;
 
-/**
- * Integer argument with Spawner-Fix-specific out-of-range messages.
- */
 public final class SpawnerFixIntArgument implements ArgumentType<Integer> {
 	private static final Collection<String> EXAMPLES = List.of("0", "4", "128", "10000");
 

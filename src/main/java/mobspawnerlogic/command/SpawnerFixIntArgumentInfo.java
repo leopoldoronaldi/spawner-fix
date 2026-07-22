@@ -6,9 +6,6 @@ import net.minecraft.commands.CommandBuildContext;
 import net.minecraft.commands.synchronization.ArgumentTypeInfo;
 import net.minecraft.network.FriendlyByteBuf;
 
-/**
- * Network / JSON serializer for {@link SpawnerFixIntArgument}.
- */
 public final class SpawnerFixIntArgumentInfo
 		implements ArgumentTypeInfo<SpawnerFixIntArgument, SpawnerFixIntArgumentInfo.Template> {
 	@Override

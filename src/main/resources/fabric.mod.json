@@ -8,6 +8,7 @@
 		"leopoldoronaldi"
 	],
 	"license": "CC BY 4.0",
+	"icon": "assets/spawner-fix/logo.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
@@ -22,12 +23,7 @@
 	],
 	"depends": {
 		"fabricloader": ">=0.19.3",
-		"minecraft": [
-			"26.1",
-			"26.1.1",
-			"26.1.2",
-			"~26.2"
-		],
+		"minecraft": ">=26.1 <=26.2",
 		"java": ">=25",
 		"fabric-api": "*"
 	}

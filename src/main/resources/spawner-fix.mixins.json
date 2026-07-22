@@ -3,7 +3,11 @@
 	"package": "mobspawnerlogic.mixin",
 	"compatibilityLevel": "JAVA_25",
 	"mixins": [
-		"BaseSpawnerMixin"
+		"BaseSpawnerMixin",
+		"BlockItemMixin",
+		"BlockMixin",
+		"ItemStackMixin",
+		"SpawnerBlockMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1

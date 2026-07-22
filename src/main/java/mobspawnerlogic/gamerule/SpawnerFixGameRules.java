@@ -26,6 +26,11 @@ public final class SpawnerFixGameRules {
 			.category(GameRuleCategory.SPAWNING)
 			.buildAndRegister(Identifier.withDefaultNamespace("spawner_spawn_radius"));
 
+	public static final GameRule<Boolean> SPAWNER_DROP_WITH_SILK_TOUCH = GameRuleBuilder
+			.forBoolean(false)
+			.category(GameRuleCategory.SPAWNING)
+			.buildAndRegister(Identifier.withDefaultNamespace("spawner_drop_with_silk_touch"));
+
 	private SpawnerFixGameRules() {
 	}
 
