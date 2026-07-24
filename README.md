@@ -6,7 +6,7 @@
 
 <p align="center">
   <a href="https://modrinth.com/mod/spawner-fix">
-    <img src="https://plain-weur-prod-public.komododecks.com/202607/23/LCb4815554PWiYP8tKte/image.png" width="225px" alt="Modrinth Button">
+    <img src="https://i.ibb.co/MDnM4C3s/Chat-GPT-Image-23-Juli-2026-15-46-39-1.png" width="225px" alt="Modrinth Button">
   </a>
   &nbsp;&nbsp;&nbsp;&nbsp;
   <a href="https://www.curseforge.com/minecraft/mc-mods/leopoldos-spawner-fix">
