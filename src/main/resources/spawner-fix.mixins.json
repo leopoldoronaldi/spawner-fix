@@ -1,0 +1,22 @@
+{
+	"required": true,
+	"package": "mobspawnerlogic.mixin",
+	"compatibilityLevel": "JAVA_25",
+	"mixins": [
+		"BaseSpawnerMixin",
+		"BlockItemMixin",
+		"BlockMixin",
+		"ItemStackMixin",
+		"SpawnerBlockMixin"
+	],
+	"client": [
+		"BaseSpawnerClientParticleMixin",
+		"SpawnerRendererMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}

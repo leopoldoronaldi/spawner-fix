@@ -1,0 +1,44 @@
+package mobspawnerlogic.gamerule;
+
+import com.mojang.serialization.Codec;
+
+import mobspawnerlogic.spawner.SpawnerRangeConstants;
+
+import net.fabricmc.fabric.api.gamerule.v1.GameRuleBuilder;
+
+import com.mojang.brigadier.arguments.IntegerArgumentType;
+import net.minecraft.resources.Identifier;
+import net.minecraft.world.level.gamerules.GameRule;
+import net.minecraft.world.level.gamerules.GameRuleCategory;
+
+public final class SpawnerFixGameRules {
+	public static final GameRule<Integer> SPAWNER_PLAYER_RANGE = GameRuleBuilder
+			.forInteger(SpawnerRangeConstants.DEFAULT_PLAYER_RANGE)
+			.argumentType(IntegerArgumentType.integer(0, SpawnerRangeConstants.MAX_PLAYER_RANGE))
+			.codec(Codec.intRange(0, SpawnerRangeConstants.MAX_PLAYER_RANGE))
+			.category(GameRuleCategory.SPAWNING)
+			.buildAndRegister(Identifier.withDefaultNamespace("spawner_player_range"));
+
+	public static final GameRule<Integer> SPAWNER_SPAWN_RADIUS = GameRuleBuilder
+			.forInteger(SpawnerRangeConstants.DEFAULT_SPAWN_RADIUS)
+			.argumentType(IntegerArgumentType.integer(0, SpawnerRangeConstants.MAX_SPAWN_RADIUS))
+			.codec(Codec.intRange(0, SpawnerRangeConstants.MAX_SPAWN_RADIUS))
+			.category(GameRuleCategory.SPAWNING)
+			.buildAndRegister(Identifier.withDefaultNamespace("spawner_spawn_radius"));
+
+	public static final GameRule<Boolean> SPAWNER_DROP_WITH_SILK_TOUCH = GameRuleBuilder
+			.forBoolean(false)
+			.category(GameRuleCategory.SPAWNING)
+			.buildAndRegister(Identifier.withDefaultNamespace("spawner_drop_with_silk_touch"));
+
+	public static final GameRule<Boolean> SPAWNER_PARTICLES = GameRuleBuilder
+			.forBoolean(true)
+			.category(GameRuleCategory.SPAWNING)
+			.buildAndRegister(Identifier.withDefaultNamespace("spawner_particles"));
+
+	private SpawnerFixGameRules() {
+	}
+
+	public static void register() {
+	}
+}

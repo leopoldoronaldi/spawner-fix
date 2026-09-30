@@ -1,0 +1,56 @@
+# gradle
+
+.gradle/
+build/
+out/
+classes/
+
+# eclipse
+
+*.launch
+
+# idea
+
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# vscode
+
+.settings/
+.vscode/# Gradle & Build-Ordner (Enthält kompilierte Dateien, nicht hochladen!)
+        .gradle/
+        build/
+
+        # IDE-Dateien (Persönliche Einstellungen deines Code-Editors)
+        .idea/
+        *.iml
+        .vscode/
+
+        # Systemdateien
+        .DS_Store
+        Thumbs.db
+
+        # Zugangsdaten / Keys (Falls du jemals welche nutzt)
+        *.keystore
+        *.jks
+        secret.properties
+bin/
+.classpath
+.project
+
+# macos
+
+*.DS_Store
+
+# fabric
+
+run/
+
+# java
+
+hs_err_*.log
+replay_*.log
+*.hprof
+*.jfr
